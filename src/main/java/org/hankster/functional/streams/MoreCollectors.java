@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  * Note on the use of interfaces for utility classes: With the advent of static methods for interfaces in Java 8,
  * interfaces become a compelling choice for utility classes, since there is no need to create a private constructor, etc.
  */
-interface MoreCollectors {
+public interface MoreCollectors {
 
     /**
      * Collector for collecting to a Guava BiMap (a map of unique values to other unique values that can be inverted)
